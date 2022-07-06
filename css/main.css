@@ -1,0 +1,436 @@
+/* rubik-regular - latin */
+@font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-v20-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v20-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v20-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v20-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v20-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v20-latin-regular.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-500 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/rubik-v20-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v20-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v20-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v20-latin-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v20-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v20-latin-500.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+  /* rubik-700 - latin */
+  @font-face {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/rubik-v20-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/rubik-v20-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/rubik-v20-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/rubik-v20-latin-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/rubik-v20-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/rubik-v20-latin-700.svg#Rubik') format('svg'); /* Legacy iOS */
+  }
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Rubik',sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #F6F6F9;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+
+.header__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:21px 0;
+}
+.logo__image{
+    display: block;
+}
+.currency{
+    margin-right: auto;
+    margin-left: 15px;
+
+    list-style: none;
+    display: flex;
+
+}
+.currency__item{
+    margin-right: 10px;
+    color: #7A7A7A;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+}
+.currency__icon{
+    color: #285193;
+    font-weight: 700;
+}
+
+.join-us{
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    display: flex;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+
+.join-us svg{
+    margin-right: 7px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.navbar{
+    margin-bottom: 18px;
+}
+.nav{
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 21px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item{
+    margin-right: 30px;
+
+}
+.last-child{
+    margin-right: 0;
+}
+.nav__link{
+
+    text-decoration: none;
+    color: #515151;
+    font-size: 19px;
+    font-family: 'Rubik';
+    font-style: normal; 
+    font-weight: 500;
+
+}
+.nav__link1{
+    color: #285193;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+}
+/* Banner */
+
+.banner{
+    width: 100%;
+}
+.section1{
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+    padding: 21px 24px;
+    width: 1279px;
+}
+.section1 img{
+    width: 43px;
+    height: 45px;
+}
+.section1 h2{
+    font-size: 24px;
+    margin-left: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+}
+.line{
+    width: 2px;
+    height: 65px;
+    margin-left: 100px;
+    background: #EB5569;
+}
+.img-vector{
+    margin-left: 30px;
+    width: 35px;
+    height: 37px;
+}
+.h3{
+    margin-left: 20px;
+    font-size: 18px;
+    color: crimson;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+.span2{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+.vector1{
+    margin-left: 30px;
+}
+.h3-1{
+    color:  #05B135;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+.strong1{
+    color: black;
+    font-size: 24px;
+}
+.vector2{
+    margin-left: 30px;
+}
+.h3-2{
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+}
+.span3{
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+}
+/* News section styles */
+
+.news{
+    display: flex;
+    /* background-color: #E5E5E5; */
+}
+
+.news__main{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.news__main__title{
+    margin: 13px 0;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.new{
+    display: flex;
+    margin: 12px 0;
+}
+
+.new__info{
+    margin-left: 10px;
+    padding-right: 76px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.new__info__title{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    margin-top: 4px;
+    color: #202020;
+    font-family: 'Rubik';
+    font-style: normal;
+
+}
+
+.new__info__description{
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #434343;
+    margin: 10px 0;
+    margin-bottom: auto;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.new__info__time{
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #7688A4;
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+
+}
+.news__recomended{
+    width: 541px;
+    padding-top: 20px;
+}
+
+.newsItems{
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    padding: 20px;
+    padding-right: 35px;
+    margin-bottom: 20px;
+}
+.newItems__single{
+    border-bottom: 3px solid #E4E4E4;
+    padding: 20px 0;
+}
+
+
+
+.article__title{
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #202020;
+
+}
+
+.article__description{
+    font-size: 17px;
+    line-height: 20px;
+
+    color: #202020;
+    margin: 10px 0;
+}
+
+.article__time{
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #7688A4;
+}
+
+.last-article{
+    border-bottom: none;
+}
+
+.aclass{
+
+    margin-left: 200px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+}
+footer{
+    background-color: #285193;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.footer__section__5{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-top: 25px;
+
+}
+.footer__section5__text{
+    margin-left:auto;
+    margin-right: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+}
+.footer__img{
+    margin-left: 180px;
+}
+.footer__line{background-color: #021739;
+    height: 2px;
+
+}
+.footer__info{
+    display: flex;
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 500;
+
+    color: #FFFFFF;
+}
+.footer__info__item1{
+    width: 38%;
+    margin-right: 110px;
+}
+.footer__info__item2{
+    width: 25%;
+    margin-right: 110px;
+}
+.footer__info__item3{
+    width: 25%;
+    margin-right: 110px;
+}
+ul{
+    list-style: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    
+}
+.footer__info__discription{
+    line-height: 17px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+}
+ 
